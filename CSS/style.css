@@ -1,0 +1,130 @@
+:root{
+ --Cyan: hsl(179, 62%, 43%);
+ --Bright-Yellow: hsl(71, 73%, 54%);
+ --Light-Gray: hsl(204, 43%, 93%);
+ --Grayish-Blue: hsl(218, 22%, 67%);
+}
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+ *{
+    margin: 0;
+ }
+
+ body{
+    background-color: #e6eff5;
+ }
+
+ .container{
+    background-color: #fff;
+    display: inline-flex;
+    flex-direction: column;
+    margin: 72px 32px 62px 32px;
+    border-radius: 15px;
+    box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+ }
+
+ h1{
+    color: var(--Cyan);
+    font-family: 'Karla' sans-serif;
+    font-weight: 700;
+}
+
+.para-1{
+   color: var(--Bright-Yellow); 
+   font-size: 16px;
+   font-weight: 700;
+   margin-top: 20px;
+   font-family: 'Karla' sans-serif;
+
+}
+
+.para-2{
+    color: var(--Grayish-Blue);
+    font-size: 15px;
+    line-height: 26px;
+    width: 55%;
+}
+
+.box-1{
+    margin: 20px;
+    padding: 10px ;
+    line-height: 30px;
+}
+
+.boxes{
+    display: flex;
+}
+
+.box-2{
+    background-color: var(--Cyan);
+    padding: 20px;
+    flex: 1;
+    border-radius: 0 0 0 15px;
+}
+
+#sub{
+    color: var(--Light-Gray);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.pricing{
+    color: var(--Light-Gray);
+    display: flex;
+}
+
+.price{
+    font-size: 25px;
+}
+
+span{
+    opacity: 0.4;
+    float: left;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.discount{
+    color: var(--Light-Gray);
+    margin-top: 10px;
+}
+
+button{
+     background-color: var(--Bright-Yellow);
+     border: none;
+     margin-top: 20px;
+     width: 265px;
+     height: 50px;
+     border-radius: 8px;
+     font-size: 17px;
+     font-weight: 400;
+     color: var(--Light-Gray);
+     cursor: pointer;
+}
+
+.box-3{
+    background-color: var(--Cyan);
+    padding: 20px;
+    opacity: 0.7;
+    flex: 1 ;
+    color: var(--Light-Gray);
+    border-radius: 0 0 15px 0;
+}
+
+#about{
+    margin: 20px;
+}
+
+.write-up{
+    line-height: 25px;
+    opacity: 0.7;
+    margin: 20px;
+}
+
+@media screen and (min-width: 700px) {
+    h1 {
+      font-size: 24px;
+    }
+}
